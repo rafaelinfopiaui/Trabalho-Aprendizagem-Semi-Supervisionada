@@ -34,6 +34,6 @@ O modelo foi avaliado com as seguintes métricas: Acurácia, F1-Score, Precisão
 
 ### Grupo e Informações do Projeto
 
-* **Integrantes:** Ailton Medeiros, Francisco Júnior, Gabriell Ibiapina, João Pedro Leocácio, João Vitor Rosado, Lais Eulálio, Mauricio Lima, Pablo Batista, Pedro Paulo Lucena, Rafael Oliveira, Wálisson Aguiar, Weyk Lopes.
+* **Integrantes:** Ailton Medeiros, Francisco Júnior, Gabriell Ibiapina, João Pedro Leocácio, João Vitor Rosado, Lais Eulálio, Mauricio Lima, Pablo Batista, Paula Iranda, Pedro Paulo Lucena, Rafael Oliveira, Wálisson Aguiar, Weyk Lopes.
 * **Disciplina:** Deep Learning e Machine Learning.
 * **Professor:** Arthur Felipe da Silva Veloso.
