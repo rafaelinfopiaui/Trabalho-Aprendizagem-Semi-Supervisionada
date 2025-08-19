@@ -2,12 +2,11 @@
 
 ### Introdução e Objetivo
 
-Este projeto visa desenvolver um classificador de imagens que aproveita tanto os dados rotulados quanto os não rotulados para maximizar a acurácia, simulando cenários reais onde a rotulação é limitada por restrições de recursos
+Este projeto visa desenvolver um classificador de imagens que aproveita tanto os dados rotulados quanto os não rotulados para maximizar a acurácia, simulando cenários reais onde a rotulação é limitada por restrições de recursos.
 
 ### Conjunto de Dados
 
-O projeto utiliza o conjunto de dados CIFAR-10, que contém 60.000 imagens coloridas de 32x32 pixels, divididas em 10 classes
-Para simular o aprendizado semi-supervisionado, a divisão dos dados foi a seguinte:
+O projeto utiliza o conjunto de dados CIFAR-10, que contém 60.000 imagens coloridas de 32x32 pixels, divididas em 10 classes. Para simular o aprendizado semi-supervisionado, a divisão dos dados foi a seguinte:
 * **Imagens Rotuladas**: 5.000 imagens (500 por classe).
 * **Imagens Não Rotuladas**: 45.000 imagens.
 * **Imagens para Teste**: 10.000 imagens, usadas para a avaliação final.
@@ -15,7 +14,7 @@ Para simular o aprendizado semi-supervisionado, a divisão dos dados foi a segui
 ### Metodologia
 
 A metodologia do projeto seguiu as seguintes etapas:
-1.  **Pré-processamento:** Normalização dos valores dos pixels para o intervalo `[0,1]` e tratamento de valores ausentes.
+1.  **Pré-processamento:** Normalização dos valores dos pixels para o intervalo `[0,1]`.
 2.  **Aumento de Dados:** Aplicação de transformações como rotações e espelhamentos apenas no conjunto rotulado para aumentar a variedade.
 3.  **Algoritmo e Arquitetura:**
     * **Algoritmo Principal:** MixMatch, uma técnica que combina consistência e *mixup*.
@@ -24,7 +23,7 @@ A metodologia do projeto seguiu as seguintes etapas:
 
 ### Resultados
 
-O modelo foi avaliado com as seguintes métricas : Acurácia, F1-Score, Precisão e Recall. Os resultados demonstraram que o modelo semi-supervisionado superou o modelo puramente supervisionado, atingindo um ganho de 16,3 pontos percentuais em acurácia.
+O modelo foi avaliado com as seguintes métricas: Acurácia, F1-Score, Precisão e Recall. Os resultados demonstraram que o modelo semi-supervisionado superou o modelo puramente supervisionado, atingindo um ganho de 16,3 pontos percentuais em acurácia.
 
 ### Como Executar o Projeto
 
